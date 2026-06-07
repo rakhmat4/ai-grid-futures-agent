@@ -1,0 +1,9 @@
+[project]
+name = "ai-grid-futures-agent"
+version = "0.1.0"
+description = "AI research engine for crypto futures grid strategy optimization using Optuna."
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
